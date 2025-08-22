@@ -15,6 +15,7 @@ COPY src/ ./src/
 COPY models/ ./models/
 COPY data/ ./data/
 COPY video/ ./video/
+COPY .streamlit/ ./.streamlit/
 
 RUN pip3 install -r requirements.txt
 
