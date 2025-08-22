@@ -1,0 +1,5 @@
+[client]
+showSidebarNavigation = false
+[theme]
+base = "dark"
+primaryColor = "#0ea5e9" # blue for sliders, checkboxes, etc.
