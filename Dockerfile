@@ -6,11 +6,21 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
     git \
+    libgl1 \
+    libglib2.0-0 \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt ./
 COPY src/ ./src/
 
+# Copy project directories
+COPY src/ ./src/
+COPY models/ ./models/
+COPY data/ ./data/
+COPY video/ ./video/
+
+# Copy configs and metadata
+COPY .streamlit/ ./.streamlit/
 RUN pip3 install -r requirements.txt
 
 EXPOSE 8501
