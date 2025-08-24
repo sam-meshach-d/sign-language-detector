@@ -1,5 +1,3 @@
-Got it 👍 — here’s the full **contents of your `README.md`** ready to copy-paste into your project:
-
 ---
 
 # 🤟 Sign Language Detector
@@ -36,8 +34,8 @@ This project enables you to:
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/sam-meshach-d/sign-language-detector
+cd sign-language-detector
 ```
 
 ### 2. Create a Virtual Environment (recommended)
@@ -89,7 +87,6 @@ This will open the **Sign Language Detector UI** in your browser.
 ### 2. Create Dataset
 
 * Record synchronized gesture samples (`.npy` + `.mp4`) per label.
-* Adjustable **sequence length, FPS, resolution**.
 * Built-in **delete/reset controls** for cleaning datasets.
 
 ### 3. Train Custom Model
@@ -124,22 +121,3 @@ This will open the **Sign Language Detector UI** in your browser.
 * The **UI images** (`static/realtime.png`, `static/dataset.png`, `static/train_model.png`) must exist.
 
 ---
-
-## 🛠️ Future Improvements
-
-* Export trained models to **ONNX**.
-* Add support for **transfer learning**.
-* Improve dataset augmentation and balancing.
-
----
-
-## 🙌 Credits
-
-* **OpenCV** for video capture.
-* **MediaPipe** for hand and body landmarks.
-* **TensorFlow/Keras** for LSTM model training.
-* **Streamlit** for rapid web app development.
-
----
-
-Do you also want me to prepare a **ready-to-use `requirements.txt`** with the exact versions so your teammates won’t face dependency mismatches?
