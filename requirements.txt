@@ -1,4 +1,3 @@
-altair
 pandas
 joblib
 streamlit

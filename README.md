@@ -70,7 +70,7 @@ Dependencies include:
 Start the Streamlit app:
 
 ```bash
-streamlit run app.py
+streamlit run src/app.py
 ```
 
 This will open the **Sign Language Detector UI** in your browser.
